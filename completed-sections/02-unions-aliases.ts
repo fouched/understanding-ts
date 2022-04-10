@@ -1,5 +1,8 @@
 type Person = {name: string, age: number}
 
+// Union type
+// Allows for the specification of 2 or more types. Implemented with pipe character.
+
 function combine(input1: number | string, input2: number | string) {
 	let result
 
